@@ -67,11 +67,8 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
         reply_markup=InlineKeyboardMarkup(
-                        [
-                            [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url="https://github.com/AbirHasan2005/PyroFilesStoreBot/blob/main/bot.py")
-                            ]
-                    )
+                    [[InlineKeyboardButton("Open Link", url="https://docs.pyrogram.org/api/types/ForceReply")]]
+                ),
         reply_to_message_id=update.message_id
     )
 
