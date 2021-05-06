@@ -21,6 +21,7 @@ else:
 from translation import Translation
 
 import pyrogram
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton,
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from helper_funcs.chat_base import TRChatBase
