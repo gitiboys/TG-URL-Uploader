@@ -68,7 +68,7 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
         reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("Open Link", url="https://docs.pyrogram.org/api/types/ForceReply")]]
+                    [[InlineKeyboardButton("💗 SUPPORT CHANNEL 💗", url="https://t.me/MohithaVarma_Robots")]]
                 ),
         reply_to_message_id=update.message_id
     )
