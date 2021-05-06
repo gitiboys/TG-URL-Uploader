@@ -69,7 +69,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", https://github.com/AbirHasan2005/PyroFilesStoreBot/blob/main/bot.py)
+                                InlineKeyboardButton("🤖 Join Updates Channel", url="https://github.com/AbirHasan2005/PyroFilesStoreBot/blob/main/bot.py")
                             ]
                     )
         reply_to_message_id=update.message_id
